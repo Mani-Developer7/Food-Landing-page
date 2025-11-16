@@ -1,0 +1,63 @@
+.Banner-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 968px;
+    margin: 0 auto 0px auto;
+    align-items: center;
+}
+
+.img-wrapper img {
+    width: 600px;
+    height: 600px;
+    object-fit: contain;
+    fill: var(--primaryColor);
+    margin-left: 30px;
+}
+
+h1 {
+    font-size: 20px;
+    font-weight: bold;
+    width: 25rem;
+    line-height: 3rem;
+    color: #282725;
+}
+
+p {
+    width: 22rem;
+    margin-top: 10px;
+    color: #5D5B56;
+}
+
+button {
+    margin-top: 30px;
+    font-weight: bold;
+}
+
+
+/* ..........SecoundBanner............ */
+
+.isrotate {
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+.isrotate h1 {
+font-size: 20px;
+}
+
+.isrotate p {
+font-size: 15px;
+width: 24rem;
+}
+.isrotate img {
+    width: 500px; 
+    height: 500px;
+    object-fit: contain;
+    margin-right: 20px;
+}
+
+.btnBox {
+    display: flex;
+    gap: 10px;
+}

@@ -1,0 +1,29 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 968px;
+    margin: 5px auto;
+    align-items: center;
+    font-weight: bold;
+}
+
+
+.navbar ul{
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+.navbar ul li a {
+    color: #282725;
+    font-size: 15px;
+}
+
+.logo h1 {
+    color: #282725;
+    font-size: 15px;
+}
+
+button {
+    margin-bottom: 20px;
+}

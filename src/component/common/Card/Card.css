@@ -1,0 +1,41 @@
+.cardBox {
+   display: flex;
+   justify-content: center;
+  
+  margin: 0 auto;
+  gap: 30px;
+  
+}
+
+.card-wrapper {
+   width: 20rem;
+   height: 310px;
+   margin-top: 40px;
+
+   /* text-align: center; */
+}
+
+.card-wrapper h1 {
+   font-size: 16px;
+   margin-left: 100px;
+   margin-right: 40px;
+}
+
+
+.card-wrapper h2 {
+   font-size: 15px;
+   text-align: center;
+   margin-top: 15px;
+}
+
+.card-wrapper p {
+   width: 18rem;
+   margin: 20px auto 0 auto;
+   color: #5D5B56;
+     text-align: center;
+}
+
+.card-wrapper img {
+   width: 135px;
+   margin: 0 auto;
+}

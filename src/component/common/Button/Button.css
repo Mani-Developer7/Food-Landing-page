@@ -1,0 +1,29 @@
+button {
+    background-color: var(--primaryColor);
+    color: black;
+    padding: .75rem 1.5rem;
+    border-radius: 3rem;
+    outline: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+
+.btnImage {
+   margin: 0;
+   padding: 0;
+    width: 20px !important;
+    height: 20px !important;
+    object-fit: contain;
+}
+
+.btnImage1 {
+   margin: 0;
+   padding: 0;
+    width: 20px !important;
+    height: 20px !important;
+    object-fit: contain;
+}
